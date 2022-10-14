@@ -36,13 +36,21 @@ function decidere(){
     let message =""
     if (sum % 2 === 0){
         
-        message = "pari vince"
+        message = "pari"
     } else {
         
-        message = "dispari vince"
+        message = "dispari"
     }
     return message
 }
 
 result = decidere()
 console.log(result)
+
+if (result ===  pariDispariUtente){
+    finalMessage = "utente vince"
+} else {
+    finalMessage ="Pc vince"
+}
+
+console.log(finalMessage)
