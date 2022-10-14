@@ -20,9 +20,24 @@ function reverString(isPalindroma){
 
     let joinString = reverseString.join("")
     console.log(joinString)
-    result = joinString
+
+    return joinString
 }
 
 
 let nuovaStringa = reverString(isPalindroma)
 console.log(nuovaStringa)
+let message = ""
+
+
+if (nuovaStringa === parolaUtente){
+    boolenValue = true
+    alert(" e palindroma")
+} else{
+    boolenValue = false
+    alert("non e palindroma")
+    
+
+}
+
+console.log(boolenValue)
